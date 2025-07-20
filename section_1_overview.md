@@ -5,12 +5,12 @@
 
 ## 🎯 Executive Summary for Leadership
 
-**What This Playbook Does:** Provides a systematic process to identify and fix unfair AI decision-making that could harm our users, expose us to legal liability, or damage our reputation.
+**What This Playbook Does:** Provides a systematic process for identifying and addressing unfair AI decision-making that could harm our users, expose us to legal liability, or damage our reputation.
 
-**Why We Need This:** AI systems can inadvertently discriminate against protected groups (racial minorities, women, elderly, etc.), leading to lawsuits, regulatory fines, and brand damage. This playbook helps us catch and fix these issues before they become problems.
+**Why We Need This:** AI systems can inadvertently discriminate against protected groups (racial minorities, women, the elderly, etc.), leading to lawsuits, regulatory fines, and brand damage. This playbook helps us catch and fix these issues before they become problems.
 
 **Business Impact:** 
-- **Risk Reduction:** Prevents discrimination lawsuits (average cost: $1.2M per case)
+- **Risk Reduction:** Prevents discrimination lawsuits 
 - **Compliance:** Ensures adherence to anti-discrimination laws
 - **Market Expansion:** Makes our products accessible to underserved communities
 - **Competitive Advantage:** Builds trust through demonstrably fair AI
@@ -21,13 +21,13 @@
 
 ## 📋 Quick Relevance Check
 
-**Your team SHOULD use this playbook if your AI system:**
+**AI Systems Engineering team SHOULD use this playbook if your AI system:**
 - Makes decisions about people (hiring, lending, healthcare, content recommendations)
 - Uses personal data containing demographic information
 - Operates in regulated industries (finance, healthcare, employment)
 - Serves diverse user populations across different demographics
 
-**Your team can SKIP this playbook if:**
+**SKIP this playbook if:**
 - Your system only processes technical data without human impact
 - No decisions are made about individuals
 - System operates in controlled, homogeneous environments
@@ -70,7 +70,7 @@ Even when we don't use obvious characteristics like race or gender, bias sneaks 
 
 **Executive Insight:** A 95% accurate AI system can still be unfairly biased.
 
-**Simple Explanation:** Our AI might be very good at predicting outcomes overall, but terrible at making fair decisions for specific groups. It might correctly identify 95% of qualified candidates but consistently miss qualified women or minorities.
+**Simple Explanation:** Our AI might be very good at predicting outcomes overall, but terrible at making fair decisions for specific groups. It might correctly identify 95% of qualified candidates, but it consistently misses qualified women or minorities.
 
 **Academic Foundation:** This reflects the principle that "Fairness ≠ Accuracy" - high performance doesn't ensure equitable treatment.
 

@@ -5,7 +5,9 @@
 
 ## 📍 Section Navigation
 **Previous:** [Section 1: Executive Overview & Problem Understanding](./section-1-overview.md)
+
 **Current:** Section 2: Fairness Definitions - Choosing What "Fair" Means ✅
+
 **Next:** [Section 3: Identifying Where Bias Comes From](./section-3-bias-sources.md)
 
 ---
@@ -16,13 +18,13 @@
 
 "Fairness" isn't one thing - it's multiple competing concepts. We must explicitly choose which type of fairness matters most for our business context, because it's mathematically impossible to achieve all types simultaneously.
 
-**Academic Foundation:** Based on Kleinberg et al. (2016) impossibility results showing that fairness definitions mathematically conflict when group base rates differ.
+**Academic Foundation:** Based on Kleinberg et al. (2016), impossibility results show that fairness definitions mathematically conflict when group-based rates differ.
 
 **Executive Decision Required:** This isn't a technical choice - it's a business strategy decision that requires leadership input.
 
 ---
 
-## 📊 Five Types of Fairness Explained for Executives
+## 📊 Types of Fairness 
 
 ### Option 1: Demographic Parity (Equal Outcomes)
 **What It Means:** Equal percentages of all groups receive positive decisions
@@ -48,7 +50,7 @@
 
 **Limitation:** Ignores different error rates for unqualified candidates
 
-**Legal Context:** Aligns with employment law focus on not missing qualified candidates
+**Legal Context:** Aligns with employment law, focusing on not missing qualified candidates
 
 ### Option 3: Equalized Odds (Equal Treatment Overall)
 **What It Means:** All groups have equal rates of both correct positive and correct negative decisions
@@ -83,11 +85,11 @@
 
 **When To Choose This:** Personalized services, individual assessments
 
-**Business Rationale:** Provides most intuitive sense of fairness
+**Business Rationale:** Provides the most intuitive sense of fairness
 
 **Limitation:** Requires defining what makes people "similar"
 
-**Legal Context:** Aligns with civil rights principle of equal treatment
+**Legal Context:** Aligns with the civil rights principle of equal treatment
 
 ---
 

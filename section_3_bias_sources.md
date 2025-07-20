@@ -5,12 +5,14 @@
 
 ## 📍 Section Navigation
 **Previous:** [Section 2: Fairness Definitions - Choosing What "Fair" Means](./section-2-fairness-definitions.md)
+
 **Current:** Section 3: Identifying Where Bias Comes From ✅
+
 **Next:** [Section 4: Measuring Fairness - The Technical Audit](./section-4-measuring-fairness.md)
 
 ---
 
-## 🎯 The Six Sources of AI Bias Explained for Leadership
+## 🎯 Sources of AI Bias 
 
 **Executive Overview:** Bias can enter our AI systems at six different stages. Understanding these helps us know where to look for problems and how to prevent them.
 
@@ -29,7 +31,7 @@
 
 **Detection Method:** Compare historical data patterns to known demographic distributions
 
-**Academic Foundation:** Reflects "Technological Continuity of Discrimination" principle
+**Academic Foundation:** Reflects the "Technological Continuity of Discrimination" principle
 
 **Executive Action Required:** Audit all historical training data for known discrimination patterns
 
@@ -51,7 +53,7 @@
 ### Source 3: Measurement Bias (Priority: 🔴 Critical)
 **What It Is:** We measure the same thing differently for different groups
 
-**Example:** Credit scores calculated differently in different regions, affecting loan decisions
+**Example:** Credit scores are calculated differently in different regions, affecting loan decisions
 
 **Why It's Critical:** Creates systematic errors that appear as neutral differences
 
@@ -59,14 +61,14 @@
 
 **Detection Method:** Audit measurement processes and data quality across groups
 
-**Academic Foundation:** Reflects "Power Asymmetries in Data Production" principle
+**Academic Foundation:** Reflects the "Power Asymmetries in Data Production" principle
 
 **Executive Action Required:** Standardize measurement processes across all demographic groups
 
 ### Source 6: Deployment Bias (Priority: 🔴 Critical)
 **What It Is:** Using AI differently than originally intended
 
-**Example:** Using hiring screening AI as final decision-maker instead of initial filter
+**Example:** Using hiring screening AI as a final decision-maker instead of an initial filter
 
 **Why It's Critical:** Can amplify bias beyond original design assumptions
 
@@ -85,7 +87,7 @@
 ### Source 4: Aggregation Bias (Priority: 🟡 High)
 **What It Is:** Using one model for diverse populations without customization
 
-**Example:** Using same medical diagnostic AI for all ethnicities when disease presentation varies
+**Example:** Using the same medical diagnostic AI for all ethnicities when disease presentation varies
 
 **Why It's High Priority:** Reduces effectiveness for minority populations
 
@@ -93,7 +95,7 @@
 
 **Detection Method:** Test model performance separately for each demographic group
 
-**Academic Foundation:** Related to "Selective Optimization" for majority groups
+**Academic Foundation:** Related to "Selective Optimization" for the majority groups
 
 **Executive Action Required:** Consider group-specific model tuning for diverse populations
 
@@ -108,15 +110,15 @@
 
 **Detection Method:** Compare test data demographics to deployment environment
 
-**Academic Foundation:** Addresses gap between development and deployment contexts
+**Academic Foundation:** Addresses the gap between development and deployment contexts
 
 **Executive Action Required:** Require representative test data that matches deployment demographics
 
 ---
 
-## 🔍 Bias Detection Process for Business Leaders
+## 🔍 Bias Detection Process 
 
-### Phase 1: System Mapping (Day 1)
+### Phase 1: System Mapping 
 **Executive Involvement Required:** Approve scope and resource allocation
 
 **Activities:**
@@ -125,13 +127,13 @@
 - Document intended vs. actual system usage
 - Assess potential impact on different user groups
 
-**Key Questions for Leadership:**
+**Key Questions:**
 - Who are our primary and secondary user groups?
 - What decisions does our AI make that affect people's lives?
 - How does our system interact with human decision-makers?
 - What are the consequences of wrong decisions for different groups?
 
-### Phase 2: Pipeline Audit (Days 2-3)
+### Phase 2: Pipeline Audit 
 **Executive Decision Points:** Prioritize which bias sources to address first
 
 **Activities:**
@@ -140,22 +142,22 @@
 - Assess measurement consistency across groups
 - Identify proxy variables that might enable discrimination
 
-**Key Questions for Leadership:**
+**Key Questions:**
 - Where in our process are we most vulnerable to bias?
 - What historical discrimination patterns might affect our system?
 - Do we have adequate representation of all user groups in our data?
 - Are we measuring outcomes consistently across different populations?
 
-### Phase 3: Risk Prioritization (Day 4)
+### Phase 3: Risk Prioritization 
 **Executive Approval Needed:** Sign off on risk assessment and action plan
 
 **Activities:**
 - Classify each identified bias source by priority level
 - Estimate potential business impact and legal exposure
-- Develop mitigation timeline and resource requirements
+- Develop a mitigation timeline and resource requirements
 - Establish monitoring and evaluation procedures
 
-**Key Questions for Leadership:**
+**Key Questions:**
 - What level of bias risk is acceptable for our business?
 - How should we prioritize limited resources across different bias sources?
 - What timeline is reasonable for addressing identified issues?
@@ -169,7 +171,7 @@
 **Business Justification:** These biases create immediate legal liability and reputational risk
 
 **Required Actions:**
-- Halt system deployment if critical bias detected
+- Halt system deployment if a critical bias is detected
 - Implement emergency review processes for affected decisions
 - Begin immediate data collection to address representation gaps
 - Establish measurement standardization protocols
@@ -221,8 +223,8 @@
 People aren't just "women" or "minorities" - they're often both. A fair system for women and fair system for minorities might still be unfair to minority women.
 
 **Business Example:** Our hiring AI might perform well for:
-- White women (gets opportunities in "female-friendly" roles)
-- Black men (succeeds in traditionally male roles)
+- White women (get opportunities in "female-friendly" roles)
+- Black men (succeed in traditionally male roles)
 - But fail for Black women (caught between racial and gender biases)
 
 **Academic Foundation:** Based on Crenshaw's intersectionality theory and Buolamwini & Gebru's intersectional bias research
@@ -288,7 +290,7 @@ def detect_proxies(df, protected_attr, features):
 - [ ] Assess potential impact on different user groups
 
 **Bias Source Identification:**
-- [ ] Audit each pipeline stage using six-source framework
+- [ ] Audit each pipeline stage using the six-source framework
 - [ ] Run proxy variable detection analysis
 - [ ] Assess representation across all demographic groups
 - [ ] Evaluate measurement consistency across groups
@@ -298,12 +300,12 @@ def detect_proxies(df, protected_attr, features):
 - [ ] Classify each bias source by priority level
 - [ ] Estimate business impact and legal exposure
 - [ ] Develop mitigation timeline and resource requirements
-- [ ] Get executive approval for action plan
+- [ ] Get executive approval for the action plan
 
 **Documentation and Next Steps:**
 - [ ] Complete bias source documentation for all findings
 - [ ] Establish monitoring procedures for ongoing detection
-- [ ] Schedule regular re-assessment cycles
+- [ ] Schedule regular reassessment cycles
 - [ ] Prepare for technical fairness metric calculation
 
 ---
@@ -311,7 +313,9 @@ def detect_proxies(df, protected_attr, features):
 ## 🔄 Complete Playbook Navigation
 
 **Previous Section:** [2. Fairness Definitions - Choosing What "Fair" Means](./section-2-fairness-definitions.md)
+
 **Current Section:** 3. Identifying Where Bias Comes From ✅
+
 **Next Section:** [4. Measuring Fairness - The Technical Audit](./section-4-measuring-fairness.md)
 
 **Remaining Sections:**
@@ -321,6 +325,6 @@ def detect_proxies(df, protected_attr, features):
 
 ---
 
-**📝 Section Summary:** This section provides a systematic framework for identifying the six major sources of bias in AI systems, with priority levels and specific detection methods for each source.
+**📝 Section Summary:** This section provides a systematic framework for identifying the major sources of bias in AI systems, with priority levels and specific detection methods for each source.
 
 **⏭️ Next Action:** Proceed to [Section 4: Measuring Fairness - The Technical Audit](./section-4-measuring-fairness.md) to learn how to quantitatively measure and validate fairness issues in your AI systems.

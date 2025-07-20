@@ -93,7 +93,7 @@
 
 ---
 
-## 🎯 Selection Framework for Executives
+## 🎯 Selection Framework 
 
 **Business Context Decision Matrix:**
 
@@ -107,7 +107,7 @@
 
 ---
 
-## 📋 Decision Process for Leadership
+## 📋 Decision Process 
 
 ### Step 1: Identify Primary Business Goal
 **Questions to Ask:**
@@ -146,7 +146,7 @@
 
 **Utilitarian Perspective (Greatest Good for Greatest Number):**
 - Focus on overall benefit maximization
-- May justify some individual unfairness for greater collective good
+- May justify some individual unfairness for the greater collective good
 - Important for resource allocation decisions
 
 **Deontological Perspective (Inherent Rights and Duties):**
@@ -161,7 +161,7 @@
 
 **Justice-Based Perspective (Rawlsian "Veil of Ignorance"):**
 - Design systems not knowing which group you'll belong to
-- Tends toward protecting most vulnerable populations
+- Tends toward protecting the most vulnerable populations
 - Useful for policy and system design decisions
 
 ---
@@ -175,14 +175,14 @@
 - [ ] Analyze business goals and success metrics
 
 **Selection Process:**
-- [ ] Evaluate each fairness definition against business context
+- [ ] Evaluate each fairness definition against the business context
 - [ ] Assess feasibility and resource requirements
 - [ ] Consider trade-offs and limitations
 - [ ] Conduct multi-framework ethical analysis
 - [ ] Document decision rationale and alternatives considered
 
 **Post-Selection Activities:**
-- [ ] Communicate decision to all relevant teams
+- [ ] Communicate the decision to all relevant teams
 - [ ] Establish success metrics and monitoring procedures
 - [ ] Set review and update schedule
 - [ ] Begin technical implementation planning
@@ -192,7 +192,9 @@
 ## 🔄 Complete Playbook Navigation
 
 **Previous Section:** [1. Executive Overview & Problem Understanding](./section-1-overview.md)
+
 **Current Section:** 2. Fairness Definitions - Choosing What "Fair" Means ✅
+
 **Next Section:** [3. Identifying Where Bias Comes From](./section-3-bias-sources.md)
 
 **Remaining Sections:**
@@ -203,6 +205,6 @@
 
 ---
 
-**📝 Section Summary:** This section guides leadership through the strategic decision of selecting appropriate fairness definitions based on business context, legal requirements, and stakeholder priorities.
+**📝 Section Summary:** This section guides through the strategic decision of selecting appropriate fairness definitions based on business context, legal requirements, and stakeholder priorities.
 
 **⏭️ Next Action:** Proceed to [Section 3: Identifying Where Bias Comes From](./section-3-bias-sources.md) to learn how to systematically identify potential sources of bias in your AI systems.

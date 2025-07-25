@@ -5,12 +5,14 @@
 
 ## 📍 Section Navigation
 **Previous:** [Section 3: Identifying Where Bias Comes From](./section-3-bias-sources.md)
+
 **Current:** Section 4: Measuring Fairness - The Technical Audit ✅
+
 **Next:** [Section 5: Case Study - Mental Health Crisis Detection AI](./section-5-case-study.md)
 
 ---
 
-## 🎯 Metrics Selection Explained for Non-Technical Leadership
+## 🎯 Metrics Selection 
 
 **Why We Need Numbers:** Just like financial audits use specific metrics (ROI, cash flow, etc.), fairness audits require precise measurements to identify problems and track improvements.
 
@@ -20,7 +22,9 @@
 
 ## 📊 Primary Fairness Metrics and Their Business Meaning
 
-### 1. Demographic Parity Rate
+### 1. Demographic Parity Rate (Statistical Parity)
+**Definition:** Equal positive prediction rate across groups.
+
 **What It Measures:** Percentage of each group receiving positive decisions
 
 **Business Translation:** Are we serving all customer segments equally?
@@ -29,13 +33,17 @@
 
 **Executive Interpretation:** If 15% of Group A gets approved but only 8% of Group B, we have a disparity that needs explanation
 
-**Formula:** P(Ŷ=1|A=0) = P(Ŷ=1|A=1)
-- Where Ŷ=1 means positive decision, A indicates group membership
+**Formula:** P(Ŷ=1|A=0) = P(Ŷ=1|A=b) 
+- Where Ŷ represents the model's prediction, Ŷ=1 means a positive decision, and A indicates the protected attribute (group membership)
+
+**Violation Measure (SPD):** SPD = |P(Ŷ=1|A=a)-P(Ŷ= 1|A=b)|
 
 **Example:** In loan approvals, if 20% of white applicants get approved, then 20% of Black applicants should also get approved
 
-### 2. Equal Opportunity Rate
-**What It Measures:** Among truly qualified individuals, percentage who receive positive decisions
+### 2. Equal Opportunity Rate (Positive Rate Parity)
+**Definition:** Equal TPR (true positive rate) for qualified individuals across groups.
+
+**What It Measures:** Among truly qualified individuals, the percentage who receive positive decisions
 
 **Business Translation:** Are we missing good candidates from any group?
 
